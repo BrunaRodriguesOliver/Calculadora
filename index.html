@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>CalculadoraJs</title>
+</head>
+<body>
+    <form action="" name="calc">
+        <div class="calculadora">
+
+            <input type="text" class="calculadora-tela" id="visor" disabled />
+        <div class="calculadora-teclado">
+        
+            <button type="button" class="all-clear" value="all-clear" onclick="reset()">AC</button>
+            <button type="button" class="operador" value="+" onclick="botao(value)">%</button>
+            <button type="button" class="operado" value="*" onclick="botao(value)">&times;</button>
+            <button type="button" class="operador" value="/" onclick="botao(value)">/</button>
+        
+            <button type="button" value="7" onclick="botao(value)">7</button>
+            <button type="button" value="8" onclick="botao(value)">8</button>
+            <button type="button" value="9" onclick="botao(value)">9</button>
+            <button type="button" class="sinal-igual" value="=" onclick="calcula()">=</button>
+        
+        
+            <button type="button" value="4" onclick="botao(value)" >4</button>
+            <button type="button" value="5" onclick="botao(value)">5</button>
+            <button type="button" value="6" onclick="botao(value)">6</button>
+            <button type="button" class="operador" value="-" onclick="botao(value)">-</button>
+        
+        
+            <button type="button" value="1" onclick="botao(value)">1</button>
+            <button type="button" value="2" onclick="botao(value)">2</button>
+            <button type="button" value="3" onclick="botao(value)">3</button>
+            <button type="button" class="operador soma" value="+" onclick="botao(value)">+</button>
+        
+        
+            <button type="button" value="0" class="zero" onclick="botao(value)">0</button>
+            <button type="button" class="decimal" value="." onclick="botao(value)">.</button>
+            
+            </div>
+        </div>
+    </form>
+      <script src="script.js"></script>
+</body>
+</html>
